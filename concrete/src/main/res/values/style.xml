@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseWindow" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/window_show</item>
+        <item name="android:windowExitAnimation">@anim/window_hide</item>
+    </style>
+
+    <!-- pupupwindow的弹出和消失动画 -->
+    <style name="popup_window_anim">
+        <item name="android:windowEnterAnimation">@anim/in</item>
+        <item name="android:windowExitAnimation">@anim/out</item>
+    </style>
+
+    <style name="BaseDialog">
+        <item name="android:windowBackground">@color/dialog_background</item>
+    </style>
+
+    <style name="dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CarouselLayout">
+        <attr name="line_status" format="enum">
+            <enum name="round" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+        <attr name="time" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxListView">
+        <attr name="max_height" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>
