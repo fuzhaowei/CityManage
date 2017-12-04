@@ -11,6 +11,7 @@ import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_picture.*
 import water.android.com.concrete.ConcreteActivity
 import water.android.com.concrete.R
+import water.android.com.concrete.ToastShow
 import java.io.File
 import java.util.*
 

@@ -14,6 +14,7 @@ import android.widget.SeekBar
 import kotlinx.android.synthetic.main.activity_video_play.*
 import water.android.com.concrete.ConcreteActivity
 import water.android.com.concrete.R
+import water.android.com.concrete.ToastShow
 import java.util.*
 
 

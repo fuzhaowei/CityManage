@@ -12,6 +12,7 @@ import android.view.WindowManager
 import android.widget.AbsListView
 import android.widget.EditText
 import android.widget.ListView
+import android.widget.Toast
 import org.jetbrains.anko.act
 import org.jetbrains.anko.internals.AnkoInternals
 import water.android.com.concrete.dialog.BaseDialog
@@ -92,4 +93,8 @@ inline fun ListView.setScrollBottomListener(scrollBottom: OnScrollBottom) {
             }
         }
     })
+}
+
+inline fun Context.ToastShow(result: String, time: Int = Toast.LENGTH_SHORT) {
+    Toast.makeText(this, result, time).show()
 }
