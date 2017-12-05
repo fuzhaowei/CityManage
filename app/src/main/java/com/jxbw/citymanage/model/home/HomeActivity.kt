@@ -1,7 +1,10 @@
 package com.jxbw.citymanage.model.home
 
 import com.jxbw.citymanage.R
+import com.jxbw.citymanage.model.mine.MineActivity
 import kotlinx.android.synthetic.main.activity_home.*
+import kotlinx.android.synthetic.main.public_title.*
+import org.jetbrains.anko.startActivity
 import water.android.com.concrete.ConcreteActivity
 import water.android.com.concrete.ToastShow
 
@@ -16,11 +19,14 @@ class HomeActivity : ConcreteActivity() {
     override fun getColor() = resources.getColor(R.color.title_background)
 
     override fun initUI() {
-
+        map_view.showZoomControls(false)
+        map_view.
     }
 
     override fun setListener() {
-
+        left_image.setOnClickListener {
+            startActivity<MineActivity>()
+        }
     }
 
     override fun onResume() {
